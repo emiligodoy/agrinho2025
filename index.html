@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Suporte ao Agronegócio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Suporte ao Agronegócio</h1>
+    <nav>
+      <a href="#fertilizantes">Fertilizantes</a>
+      <a href="#agrotoxicos">Agrotóxicos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="fertilizantes">
+      <h2>Escolha de Fertilizantes</h2>
+      <p>A escolha adequada de fertilizantes garante a nutrição ideal para as culturas agrícolas. Aqui estão algumas dicas:</p>
+      <ul>
+        <li>Análise de solo</li>
+        <li>Tipo de cultura</li>
+        <li>Clima da região</li>
+      </ul>
+      <img src="https://via.placeholder.com/600x300?text=Fertilizantes" alt="Fertilizante sendo aplicado no solo" />
+    </section>
+
+    <section id="agrotoxicos">
+      <h2>Uso Consciente de Agrotóxicos</h2>
+      <p>O uso correto de defensivos agrícolas reduz riscos ambientais e aumenta a produtividade:</p>
+      <ul>
+        <li>Consulte um agrônomo</li>
+        <li>Use equipamentos de proteção</li>
+        <li>Respeite a carência dos produtos</li>
+      </ul>
+      <img src="https://via.placeholder.com/600x300?text=Agrotóxicos" alt="Aplicação de agrotóxicos na lavoura" />
+    </section>
+
+    <section id="contato">
+      <h2>Entre em Contato</h2>
+      <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required />
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+        <label for="tipo">Tipo de dúvida:</label>
+        <select id="tipo" name="tipo">
+          <option value="fertilizante">Fertilizante</option>
+          <option value="agrotoxico">Agrotóxico</option>
+        </select>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Site autoral desenvolvido com imagens fictícias. Imagens criadas via <strong>Placeholder.com</strong>. Todos os textos são originais.</p>
+  </footer>
+</body>
+</html>
